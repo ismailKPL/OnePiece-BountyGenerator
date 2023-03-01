@@ -1,4 +1,4 @@
-# ONE PIECE BOUTNY GENERATOR 🏴‍
+# ONE PIECE BOUTNY GENERATOR 🏴‍☠️
 
 Website : https://opbg.netfily.app
 #
