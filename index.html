@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
+    <meta name="description" content="Generateur aléatoire de prime one piece ! - By Ismail KPL " />
+    <link rel="icon" href="./img/logoOff.png">
+
+    <title>ONE PIECE BOUNTY GENERATOR</title>
+</head>
+<body>
+    <header>
+
+      <img class="opbgLOGO" src="img/opbgLOGO.png" alt="Logo one piece bounty generator">
+     
+
+    </header>
+    
+    <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nom et Prenom</label>
+          <input type="text" name="name" id="name" class="form-control" maxlength="11" placeholder="Entrez votre nom" required="">
+        </div>
+    
+        <div class="form-group">
+          <label id="file-label" for="image">Photo</label>
+          <input type="file" name="file" id="file" class="form-control" accept=".png, .jpg, .jpeg" required="">
+        </div>
+    
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Générer
+          </button>
+        </div>
+
+        
+      </form>
+
+      <p class="pPrimeM">Le montant de votre prime sera généré aleatoirement</p>
+
+      <div class="BH"></div>
+
+
+
+      
+      <p id="status"></p>
+
+  <div class="parentINP">
+
+    <!-- IMAGE -->
+        <div class="divoutput">
+          <img id="output">
+        </div>
+
+      <!-- NOM -->
+      <div class="div-vide"></div>
+
+     <!-- PRIME -->
+     <div class="div-videBounty"></div>
+
+  </div>
+      
+  <img class="bountyvide" src="img/primevide.png" alt="image de la prime one piece">
+  <img class="bgop" src="img/OPBB.jpg" alt="image de fond one piece">
+
+  <div class="divPism">
+    <p class="pISM">Made by <a class="pISMlien" href="https://twitter.com/IsmailKPLdev" target="_blank">Ismail KPL</a></p>
+</div>
+
+      <script src="./app.js" type="module"></script>
+</body>
+
+
+</html>

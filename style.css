@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #2885FF;
+    font-family: 'Satoshi', sans-serif;
+    /* overflow: hidden; */
+}
+
+.opbgLOGO {
+    width: 23vw;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.bounty {
+    text-align: center;
+    color: #40372e;
+    display: inline;
+    margin: 0 4px;
+    font-size: 2vw;
+}
+.titleOPBG {
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+}
+
+#survey-form {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    background: #ccbda5;
+    width: 31vw;
+    padding: 60px 30px 25px 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 7% auto;
+    border-radius: 1vw;
+    border: 4px solid #40372e;
+    margin-top: 4vw;
+}
+
+#name-label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#name {
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    color: #40372e;
+    font-weight: bold;
+}
+
+input{
+    display: flex;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+
+#submit {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 10vw;
+    color: #40372e;
+    background: white;
+    box-shadow: #40372e 0px 2px;
+    border: #40372e 1px solid;
+    font-size: 17px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#submit:hover {
+    box-shadow: none;
+}
+
+.bountyvide {
+    width: 24vw;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: -2;
+    visibility: hidden;
+}
+
+
+.BH {
+    width: 40%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin: -4% auto 0;
+    margin-bottom: 750px;
+}
+
+#output {
+    width: 18vmax;
+    height: 13vmax;
+    border: 1px solid black;
+    object-fit: cover;
+    visibility: hidden;
+}
+
+.parentINP {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: -31.3%;
+}
+
+.div-vide {
+    padding: 3.5% 0 2px 0;
+    font-size: 2vw;
+    color: #40372e;
+}
+
+
+@media screen and (max-width:900px) {
+
+    #submit{
+        width: 20vw;
+    }
+
+    .div-vide {
+        padding: 8% 0 1.5% 0;
+        font-size: 3vw;
+    }
+
+
+    .parentINP{
+        margin-bottom: -65.3%;
+    }
+
+    #output {
+        width: 36vw;
+        height: 26vw;
+    }
+
+    .bounty{
+        font-size: 4vw;
+    }
+
+    .bountyvide{
+        width: 50vw;
+        padding-bottom: 2%;
+    }
+
+  }
+
+  .bgop {
+    width: 100%;
+    position: relative;
+    z-index: -5;
+    margin: 0 auto;
+    display: block;
+    filter: blur(12px);
+    mix-blend-mode: luminosity;
+    margin-top: -58%;
+}
+
+
+.divPism {
+    width: 50%;
+    height: 50px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 85vw 85vw 0 0;
+}
+
+.pISM {
+    color: #2885FF;
+}
+.pISMlien{
+    color: #2885FF;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.pISMlien:hover {
+    text-decoration: underline;
+}
+
+
+  @media screen and (max-width:600px){
+
+    .bountyvide{
+        padding-bottom: 60%;
+    }
+
+    .bgop{
+        display: none;
+    }
+
+    body {
+        background: url(img/OPBB.jpg) #2885FF;
+        background-blend-mode: luminosity;
+        backdrop-filter: blur(11px);
+    }
+
+    .BH{
+        margin-bottom: 500px;
+    }
+
+    .parentINP {
+        margin-bottom: -65%;
+    }
+
+    .divPism { 
+        border-radius: 35px 35px 0 0;
+     }
+  }
+
+  #crime {
+    padding: 8px;
+    border-radius: 50px;
+    margin: 0 0 10% 0;
+}
+
+
+
+.pPrimeM {
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+    #survey-form{
+        width: 70%;
+        margin-top: 25%;
+    }
+    .opbgLOGO{
+        width: 40%;
+        padding-top: 6%;
+    }
+
+    label {
+        font-size: 3vw;
+    }
+
+    .pPrimeM{
+        font-size: 3vw;
+        margin-bottom: -40px;
+    }
+}
