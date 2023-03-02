@@ -1,5 +1,8 @@
 # ONE PIECE BOUTNY GENERATOR 🏴‍☠️
 
+`HTML` `CSS` `JavaScript`
+
+
 Website : https://opbg.netlify.app
 #
 ![repository-opbg1](https://user-images.githubusercontent.com/67828542/222185064-7ea512d2-db72-42c3-95d8-f955c42dab43.png)
