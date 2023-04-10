@@ -11,6 +11,7 @@ const output = document.getElementById('output');
 const reader = new FileReader();
 const BountyVide = document.querySelector(".bountyvide");
 const cadreImg = document.querySelector("#output");
+const BH = document.querySelector(".BH");
 
 let pseudo = "";
 let image = "";
@@ -29,6 +30,7 @@ form.addEventListener("submit", (e) => {
 })
 
 button.addEventListener("click", click => {
+  BH.style.marginBottom = "400px"
     div.innerHTML = `
     <h3>${pseudo}</h3>
     <style>

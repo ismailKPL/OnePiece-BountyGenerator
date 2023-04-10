@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ body{
     margin: 0 auto;
     padding-top: 1%;
 }
+
 
 h3, h4 {
     text-align: center;
@@ -94,6 +96,7 @@ input{
 
 #submit:hover {
     box-shadow: none;
+    width: 6.5vw;
 }
 
 .bountyvide {
@@ -112,7 +115,7 @@ input{
     background: white;
     display: block;
     margin: -4% auto 0;
-    margin-bottom: 750px;
+
 }
 
 #output {
@@ -142,6 +145,10 @@ input{
     #submit{
         width: 20vw;
     }
+    #submit:hover {
+        box-shadow: none;
+        width: 19.5vw;
+    }
 
     .div-vide {
         padding: 8% 0 1.5% 0;
@@ -150,7 +157,7 @@ input{
 
 
     .parentINP{
-        margin-bottom: -65.3%;
+        margin-bottom: -66.8%;
     }
 
     #output {
@@ -175,7 +182,7 @@ input{
     z-index: -5;
     margin: 0 auto;
     display: block;
-    filter: blur(12px);
+    filter: blur(13px);
     mix-blend-mode: luminosity;
     margin-top: -58%;
 }
@@ -223,17 +230,13 @@ input{
         backdrop-filter: blur(11px);
     }
 
-    .BH{
-        margin-bottom: 500px;
-    }
-
     .parentINP {
         margin-bottom: -65%;
     }
 
-    .divPism { 
+    .divPism {
         border-radius: 35px 35px 0 0;
-     }
+    }
   }
 
   #crime {
